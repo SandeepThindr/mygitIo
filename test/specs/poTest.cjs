@@ -13,7 +13,7 @@ describe('Ecommerce Application', async()=>
         //webdriver io
         await browser.url("https://rahulshettyacademy.com/loginpagePractise/")
         await loginPage.Login(username,password)
-        await browser.pause(4000)
+        await browser.pause(6000)
         await console.log(await loginPage.alert.getText())
         //await browser.pause(3000)
         await browser.waitUntil(async()=>await loginPage.signIn.getAttribute('value')=== 'Sign In',

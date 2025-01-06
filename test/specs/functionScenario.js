@@ -7,7 +7,7 @@ describe('Functional Testing on Application', async()=>
     
     
     
-    xit('Scrolling and Mouse Hover', async()=>{
+    it('Scrolling and Mouse Hover', async()=>{
 
         await browser.url("https://rahulshettyacademy.com/AutomationPractice/")
         await $("#mousehover").scrollIntoView()
